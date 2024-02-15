@@ -1,4 +1,4 @@
-package org.example;
+package org.aiods;
 
 import java.util.Arrays;
 
@@ -10,7 +10,8 @@ public class RemoveDuplicateElementFromIntArray {
 
         for (int i=0; i<a.length;i++){
              int element=a[i];
-            if (!isExist(result,element)){
+            if (!isExist(result,element))
+            {
                 result[i]=element;
             }
         }
